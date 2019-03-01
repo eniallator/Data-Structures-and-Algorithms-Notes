@@ -12,4 +12,4 @@
 
 ## Implementation
 
-- Can use a linked list where you store the parent pointer and also the left/right children
+- Can use a linked list where you store the data, parent pointer and also the left/right children
