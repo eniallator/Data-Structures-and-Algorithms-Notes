@@ -46,6 +46,20 @@
   - Semantic networks
   - Neural networks
 
+## Main Methods
+
+- `insertVertex(o):` insert vertex storing element o
+- `insertEdge(v, w, o):` insert edge (v,w) storing element o
+- `removeVertex(v):` remove vertex v (and incident edges)
+- `removeEdge(e):` remove edge e
+- `incidentEdges(v):` return collection of incident edges
+- `opposite(v,e):` return endpoint w of e s.t. w != v; error if v not endpoint
+- `areAdjacent(v, w):` true if v and w are adjacent
+- `replace(v, x):` replace element at vertex v with x
+- `replace(e, x):` replace element at edge e with x
+- `vertices():` return iterable collection of vertices
+- `edges():` return iterable collection of edges
+
 ## Terminology
 
 - **Endpoints**: end vertices of an edge
