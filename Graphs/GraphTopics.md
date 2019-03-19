@@ -1,6 +1,6 @@
 # Notes
 
-- Coursework is work 12% of overall grade (where cw 2 is 38% and exam is 50%)
+- Coursework is work 12% of overall grade (where cw 2 is 28% and exam is 60%)
   - Due in 2 weeks on 28th March
 
 ## Traversal VS Search
@@ -43,3 +43,4 @@
 ### Properties of DFS
 
 - Visits all edges of current node
+- Forms a spanning tree of connected
