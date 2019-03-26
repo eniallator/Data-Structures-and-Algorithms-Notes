@@ -43,3 +43,8 @@
 | values()                                      | Return iterable collection of all the values                                                                      |
 | size()                                        | Return int number of entries in map collection                                                                    |
 | isEmpty()                                     | Return true if map has no entries; false otherwise.                                                               |
+
+## LECTURER
+
+- TRIGGERED: SHE'S USING EDGE
+- Now she's telling us how to make weed cookies
