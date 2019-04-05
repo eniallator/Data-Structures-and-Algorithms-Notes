@@ -44,3 +44,24 @@ public Object min();
     - O(n)
   - To remove, just take the first item
     - O(1)
+
+## Comparators
+
+- A comparator object encapsulates the action of comparing two objects according to a given total order relation
+- Generic priority queue uses an auxiliary comparator
+
+## Sorting
+
+- Can use priority queue to sort data
+- Insert elements with a series of insert operations
+- Remove the elements in sorted order with a series of `removeMin` operations
+- Run time?
+
+## Sequence-Based Priority Queue
+
+- Implementation with an sorted list:
+  - `insert` - `O(1)` since inserting is at the beginning or end of the sequence
+  - `removeMin` - `O(n)` since traversing entire sequence to find the smallest key
+- Implementation with unsorted list:
+  - `insert` - `O(n)` since figuring out place to insert the item
+  - `removeMin` - `O(1)` since u know where the min key is

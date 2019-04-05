@@ -13,3 +13,9 @@
 ## Implementation
 
 - Can use a linked list where you store the data, parent pointer and also the left/right children
+
+### Array Implementation
+
+- root node is index `0`
+- Left child index is `2 * parentIndex + 1`
+- right child index is `2 * parentIndex + 2` ( or `leftIndex + 1` )
